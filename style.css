@@ -1,10 +1,10 @@
 @font-face {
   font-family: "hardrock";
-  src: url(/fonts/HARD_ROCK.ttf);
+  src: url(HARD_ROCK.ttf);
 }
 @font-face {
   font-family: "rock";
-  src: url(/fonts/rocknroll_typo_crazy.ttf);
+  src: url(rocknroll_typo_crazy.ttf);
 }
 
 @font-face {
