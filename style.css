@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "hardrock";
+  src: url(/fonts/HARD_ROCK.ttf);
+}
+@font-face {
+  font-family: "rock";
+  src: url(/fonts/rocknroll_typo_crazy.ttf);
+}
+
+@font-face {
+  font-family: "thedark";
+  src: url(/fonts/TheDark.ttf);
+}
+
+body {
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(0, 0, 0) 25%,
+    rgb(255, 0, 0) 25% 40%,
+    rgb(0, 0, 0) 40% 70%
+  );
+}
+
+#carouselACDC {
+  margin-top: 100px;
+}
+section {
+  margin-top: 10px;
+}
+
+header {
+  width: 60%;
+  font-family: "thedark";
+}
+nav ul,
+.navbar-expand-lg .navbar-nav .nav-link,
+nav i {
+  color: red !important;
+  list-style-type: none;
+}
+.navbar-brand {
+  color: white;
+}
+
+.carousel-inner {
+  width: 65%;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 80px;
+  font-family: "thedark";
+}
+
+h1 i {
+  color: red;
+  background-color: black;
+}
+
+h5 {
+  font-family: "rock";
+  color: red;
+}
+
+.membres {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+figure {
+  justify-content: center;
+  display: flex;
+  padding: 2px;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+figure img {
+  border: solid white;
+  width: 100%;
+}
+
+.btn.btn-primary {
+  background-color: red;
+  border: none;
+  font-family: "rock";
+}
+
+.card {
+  margin: 20px;
+  box-shadow: 15px 10px 30px rgb(0, 0, 0);
+}
+
+table thead {
+  color: red;
+  padding: 50px;
+}
+table {
+  text-align: center;
+  width: 80% !important;
+  margin: auto;
+  border-collapse: inherit;
+}
+
+div .row {
+  margin: 10px;
+}
+
+.btn.btn-primary {
+  background-color: rgb(231, 13, 13) !important;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.form-control::placeholder {
+  font-family: "thedark";
+  color: red;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 576px) {
+  figure {
+    display: flow-root;
+  }
+
+  figure img {
+    width: 200px;
+    height: 200px;
+  }
+  figure figcaption {
+    position: relative;
+    text-align: center;
+  }
+  .membres {
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
